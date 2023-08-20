@@ -1,0 +1,309 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Exercise 2 </title>
+	<script>
+            function dog(){   // get the span element   
+                var displaySpan = document.getElementById("display");   // show dog message   
+                displaySpan.innerHTML = "Dog is clicked"; 
+                var displayField = document.getElementById("display2"); // show cat message   
+                displayField.value = "User clicks dog!"; 
+                var image = document.getElementById("display1");
+                image.src = "dog.jpg";
+
+            }
+            function cat(){   // get the span element   
+                var displaySpan = document.getElementById("display");   // show cat message   
+                displaySpan.innerHTML = "Cat is clicked"; 
+                var displayField = document.getElementById("display2"); // show cat message   
+                displayField.value = "User clicks cat!"; 
+                var image = document.getElementById("display1");
+                image.src = "lion.jpg";
+            }
+            function frog(){   // get the span element   
+                var displaySpan = document.getElementById("display");   // show frog message   
+                displaySpan.innerHTML = "Frog is clicked";
+                var displayField = document.getElementById("display2"); // show cat message   
+                displayField.value = "User clicks frog!"; 
+                var image = document.getElementById("display1");
+                image.src = "frog.jpg";
+            }
+    </script>
+	
+	<style> 
+        body {background-color: grey;}
+		
+        a1 {
+            color: black;
+            margin-top: 50px;
+            border-style: double;
+            background-color: white;
+        }
+        
+        h1 {
+            color: aqua;
+            margin-top: 30px;
+            background-color: black;
+            border: dotted;
+            border-color: white;
+        }
+        table.table1    {
+            border: groove;
+            margin-top: 20px;
+            background-color: white;
+            border-color: black;
+            width: 1200;
+            align-self: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+            width: 200px;
+            font-weight: 1000;
+        }
+
+        td {
+            align-items:center;
+            background-color: lightblue;
+            color: black;
+            text-align: left;
+        }
+
+        table.table2    {
+            border: dashed;
+            margin-top: 20px;
+            background-color: black;
+            border-color: cyan;
+            width: 1200;
+            align-self: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            word-wrap: normal;
+        }
+
+        button {
+            border-style: dotted;
+            
+        }
+
+	</style>
+	
+</head>
+
+<body>
+
+    <a1> - - Task 1 - - </a1>
+	<h1> 5446740 Lachlan Fenger </h1>
+
+    <h1> COMP804: Web Security </h1>
+
+    <h1> Assignment 3: due Monday 21st of August 2023 </h1>
+    <br>
+
+    <a1> - - Task 2 - - </a1>
+    <table class="table1">
+        <tr>
+            <th> Activity </th>
+            <th> Date </th>
+        </tr>
+        <tr>
+            <td style="background-color: aquamarine;"> First day to enrol for re-enrolling (continuing students) </td>
+            <td style="background-color: aquamarine;"> 21 Nov 2022 </td>
+        </tr>
+        <tr>
+            <td> Orientation </td>
+            <td> 18 Jul 2023 </td>
+        </tr>
+        <tr>
+            <td style="background-color: aquamarine;"> Lectures commence (weeks 1-9) </td>
+            <td style="background-color: aquamarine;"> 24 Jul - 22 Sep 2023 </td>
+        </tr>
+        <tr>
+            <td> Last day to enrol / add subjects yourself </td>
+            <td> 04 Aug 2023 </td>
+        </tr>
+        <tr>
+            <td style="background-color: aquamarine;"> Last day to enrol / add subjects with Head of Students approval </td>
+            <td style="background-color: aquamarine;"> 11 Aug 2023 </td>
+        </tr>
+        <tr>
+            <td> 
+                CENSUS DATE <br>
+                - Fees due <br>
+                - Last day to withdraw from subject/s without paying for them <br>
+                - HECS / FEE HELP debt reporting date <br>
+                - Last day to change HECS / FEE HELP billing option <br>
+                <a href="https://uowedu.service-now.com/kb?id=kb_article_view&sysparm_article=KB0012659" target="_blank"> Learn more about Census date > </a> </td>
+            <td> 31 Aug 2023 </td>
+        </tr>
+        <tr>
+            <td style="background-color: aquamarine;"> Student Services and Amenities Fees Due </td>
+            <td style="background-color: aquamarine;"> 01 Sep 2023 </td>
+    </table>
+	<br><br>
+
+    <a1> - - Task 3 - - </a1>
+
+    <table class="table2">
+        <tr>
+            <th style="background-color: plum; width: 600px;"> Name </th>
+            <th style="background-color: plum; width: 600px;"> Web Attacks </th>
+        </tr>
+        <tr>
+            <td> 
+                SQL Injections <br><br>
+                <img src="SQL Injection.png"; width="100px"> <br><br>
+                <a href="https://medium.com/@sara.chabukswar20/sql-injection-attack-ecaa74ed672a" target="_blank"> Source: Medium.com </a>
+            </td>
+            <td> 
+                - SQL stands for Structured Query Language, and is an attack that often occurs on a database driven website <br>  
+                - Malicious code is injected into vulnerable website search box <br>
+                - The result allows the hacker to view, edit, and delete tables in the database <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Malware Attack <br><br>
+                <img src="Malware.png"; width="100px"> <br><br>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foregenix.com%2Fblog%2Fwhat-is-malware-and-how-to-prevent-an-attack&psig=AOvVaw05aaDU3MUN2aY1UA_thpBD&ust=1692606859308000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIjFsYfq6oADFQAAAAAdAAAAABAE" target="_blank"> Source: Forgenix.com</a>
+            </td>
+            <td>
+                - is one of the most common type of cyberattacks <br>
+                - refers to malicious software such as worms, spyware, ransomware, adware and trojans <br>
+                - breaches take place through a network vulnerability <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phishing Attack <br><br>
+                <img src="phishing.jpg"; width="100px"> <br><br>
+                <a href="https://75d03c5f1bfbbbb9cc13-369a671ebb934b49b239e372822005c5.ssl.cf1.rackcdn.com/anatomy-spear-phishing-attack-how-hackers-build-targeted-attacks-and-theyre-so-effective-showcase_image-5-w-1968.jpg" target="_blank"> Source: Bankinfosecurity.com</a>
+            </td>
+            <td>
+                - it is a soicial engineering attack done via impersonation of a trusted person <br>
+                - it can often be done via email, and when a link or attachment is clicked, malware can be installed <br>
+                - phishing can be prevented by scrutinizing emails, using anti-phishing toolbars, and updating passwords regularly <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Password Attack <br><br>
+                <img src="password attack.png"; width="100px"> <br><br>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogixconsulting.com%2F2022%2F03%2F22%2F5-common-types-of-password-attacks%2F&psig=AOvVaw2v5noUD_8dkSIOdtJVygZ5&ust=1692614606161000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOj2wfWG64ADFQAAAAAdAAAAABAJ" target="_blank"> Source: Logicxconsulting.com</a> <br>
+
+            </td>
+            <td>
+                - form of attack where a hacker cracks your password <br>
+                - uses tools such as Aircrack, Cain, Abel, John the Ripper etc <br>
+                - using strong alpha numeric passwords can help prevent password attacks <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Man in the middle attack <br><br>
+                <img src="man in the middle.png"; width="100px"> <br><br>
+                <a href="https://cdn.ttgtmedia.com/rms/onlineImages/security-man_in_the_middle_attack-h_half_column_mobile.png" target="_blank"> Source: Techtarget.com</a> <br>
+
+            </td>
+            <td>
+                - aka an evesdropping attack <br>
+                - attacker gets in the way of a two party communication and hijacks the session <br>
+                - MITM attacks can be prevented by being mindful of website security, using encryption, and refraining from using public wifi <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Denial of Service Attack <br><br>
+                <img src="DOS.jpg"; width="100px"> <br><br>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.f-secure.com%2Fen%2Farticles%2Fwhat-is-ddos&psig=AOvVaw0pP0F0ibn_WMmWrjtPyBiu&ust=1692615406504000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCPi5h_OJ64ADFQAAAAAdAAAAABAm" target="_blank"> Source: f-secure.com</a> <br>
+
+            </td>
+            <td>
+                - Denial of Service attacks are caused by attackers flooding the systems, servers and networks of a company to exhaust the resources and bandwidth<br>
+                - It prevents actual issues from being addressed <br>
+                - aka DDOS when multiple attackers use compromised systems to launch this attack
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Cryptojacking <br><br>
+                <img src="cryptojacking.jpg"; width="100px"> <br><br>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.globalsign.com%2Fen%2Fblog%2Fhow-to-tell-cryptojacked&psig=AOvVaw1TGwrfMkWjkEnbrPemyPAv&ust=1692615814492000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOCLxLWL64ADFQAAAAAdAAAAABAE" target="_blank"> Source: Globalsign.com</a> <br>
+
+            </td>
+            <td>
+                - takes place when attackers access someone elses computer for mining cryptocurrency <br>
+                - access is gained by infecting a website or manipulating the victim to click on a malicious link <br>
+                - Victims are unaware of this as the Crypto mining code works in the background; a delay in the execution is the only sign they might witness <br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Zero Day Exploit <br><br>
+                <img src="zeroday attack.png"; width="100px"> <br><br>
+                <a href="https://assets.website-files.com/5ff66329429d880392f6cba2/612895c152a3159f70de1a8a_zero-day%20vulnerability%20Preview.png" target="_blank"> Source: wallarm.com</a> <br>
+
+            </td>
+            <td>
+                - Zero-Day Exploit happens after the announcement of a network vulnerability and there is no solution for the vulnerability in most cases<br>
+                - hackers make sure to exploit the vulnerability even before a patch or solution is implemented for it <br>
+                - can be prevented by having an incident response plan to help you deal with a cyberattack<br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Watering Hole Attack <br><br>
+                <img src="Watering Hole Attack.jpg"; width="100px"> <br><br>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcybersecurityglossary.com%2Fwatering-hole-attack%2F&psig=AOvVaw1lc1vo4V6eP-Mj0vF_SsVO&ust=1692616284418000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCODdzZWN64ADFQAAAAAdAAAAABAE" target="_blank"> Source: Cybersecurityglossary.com</a> <br>
+
+            </td>
+            <td>
+                - a specific group is targeted by hackers on targeted websites that the group often frequent <br>
+                - attackers infect these sites with malware aiming to infect the victims systems <br>
+                - the hacker attempts to gain access to personal information<br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                Insider Threat <br><br>
+                <img src="insider threat.jpg"; width="100px"> <br><br>
+                <a href="https://linfordco.com/wp-content/uploads/2019/07/insider-threats-in-cyber-security.jpg" target="_blank"> Source: Linfordco.com</a> <br>
+
+            </td>
+            <td>
+                - insider threats are rampant in small businesses<br>
+                - reasons for this attack can include greed, malice and carelessness<br>
+                - good security culture and training can help prevent this<br><br>
+                <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/types-of-cyber-attacks" target="_blank"> Source: Simpli Learn</a> <br><br>               
+            </td>
+        </tr>
+    </table><br><br>
+    
+    <a1> - - Task 4 - - </a1> <br><br>
+
+        <button onClick="cat()">Cat</button> 
+        <button onClick="dog()">Dog</button>
+        <button onClick="frog()">Frog</button><br><br>
+        <input id="display2"></input><br><br>
+        <span id="display"></span> <br><br>	
+        <img id="display1"/>
+        <br><br>
+        
+    
+        <a1> - - Task 5 - - </a1> <br><br>
+
+
+</body>
+
+</html>
